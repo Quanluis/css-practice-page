@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
 
+var ghpages = require('gh-pages');
+ 
+ghpages.publish('dist', function(err) {});
+
 class App extends Component {
   render() {
     return (
