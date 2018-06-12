@@ -14,7 +14,7 @@ class App extends Component {
     <header id="top" class="main-header">
       <span class="title">Journey Through the Sierra Nevada Mountains</span>
       <h1>Lake Tahoe, California</h1>
-      <img class="arrow" src="img/arrow.svg" alt="Down arrow" />
+      <img class="arrow" src={require("./img/arrow.svg")} alt="Down arrow" />
     </header>
     
 		<div class="primary-content t-border">
@@ -35,7 +35,7 @@ class App extends Component {
 
 		<div class="secondary-content t-border group"> 
       <div class="resorts">
-        <img src="img/resort.jpg" alt="Resort" />
+        <img src={require("./img/resort.jpg")} alt="Resort" />
         <h3>From Tents to Resorts</h3>
         <p>
           Lake Tahoe is full of wonderful places to stay. You have the ability to sleep in the outdoors in a tent, or relax like a king at a five star resort. Here are our top three resorts:
@@ -48,7 +48,7 @@ class App extends Component {
       </div>
       
       <div class="tips">
-        <img src="img/mtn-landscape.jpg" alt="Mountain Landscape" />
+        <img src={require("./img/mtn-landscape.jpg")} alt="Mountain Landscape" />
         <h3>Pack Accordingly</h3>
         <p>
           One of most important things when it comes to traveling through the great outdoors is packing accordingly. Here are a few tips:
